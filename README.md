@@ -2,7 +2,7 @@
 
 **Author:** [EFT](https://github.com/ztistic)
 **Repo:** [dify-plugin-redis](https://github.com/ztistic/dify-plugin-redis)
-**Version:** 1.0.2
+**Version:** 1.0.3
 **Type:** tool
 
 ## Description
