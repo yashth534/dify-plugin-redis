@@ -47,6 +47,34 @@ credentials_for_provider:
     placeholder:
       en_US: 'default: false'
       zh_Hans: '默认: false'
+  username:
+    type: text-input
+    required: false
+    label:
+      en_US: Username
+      zh_Hans: Username
+    placeholder:
+      en_US: 'default: None (e.g. "default" for DigitalOcean Managed Valkey)'
+      zh_Hans: '默认: None (例如 DigitalOcean 托管 Valkey 使用 "default")'
+  use_ssl:
+    type: select
+    required: false
+    default: 'none'
+    label:
+      en_US: SSL/TLS
+      zh_Hans: SSL/TLS
+    placeholder:
+      en_US: 'default: None'
+      zh_Hans: '默认: 无'
+    options:
+      - value: 'none'
+        label:
+          en_US: None
+          zh_Hans: '无'
+      - value: 'ssl-tls'
+        label:
+          en_US: SSL/TLS
+          zh_Hans: SSL/TLS
   db:
     type: text-input
     required: false
